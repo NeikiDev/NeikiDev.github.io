@@ -1,1 +1,139 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeikiDev - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="https://tip.neiki.dev/Neiki.png">
+    <meta name="description" content="NeikiDev's personal portfolio and developer profile">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">NeikiDev</div>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero section with improved full-width layout -->
+            <section id="home" class="hero-section">
+                <div class="hero-content">
+                    <h1>Hello, I'm <span class="highlight">NeikiDev</span></h1>
+                    <h2>Developer & CyberSecurity Reesearcher</h2>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Get In Touch</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About section -->
+            <section id="about" class="about-section">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate German developer specializing in frontend technologies like TypeScript and React, as well as backend development with Java. My expertise lies in building modern, efficient, and scalable applications that deliver exceptional user experiences.</p>
+                        <p>Beyond development, I have a deep interest in cybersecurity, constantly exploring ways to create secure and robust systems. My journey in programming is fueled by curiosity, continuous learning, and a commitment to solving complex challenges with innovative solutions.</p>
+                        <div class="skills">
+                            <h3>My Skills</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Rust</span>
+                                <span class="skill-tag">Bun.js / Node.js</span>
+                                <span class="skill-tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects section -->
+            <section id="projects" class="projects-section">
+                <div class="section-header">
+                    <h2>My Projects</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Threat Insights Portal</h3>
+                            <p>A multi-uploader and malware analyzer offering detailed threat insights and actionable intelligence.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Java</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://tip.neiki.dev/" target="_blank" aria-label="Project One Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>PiQTT</h3>
+                            <p>Control Raspberry Pi GPIO ports via MQTT for IoT and home automation.</p>
+                            <div class="project-tags">
+                                <span>Node.js</span>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gitlab.neiki.dev/share/PiQTT" target="_blank" aria-label="Project Two GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>VirusTotal customization</h3>
+                            <p>A browser extension that enhances the VirusTotal experience.</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://gitlab.neiki.dev/-/snippets/1" target="_blank" aria-label="Project Three GitHub"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact section -->
+            <section id="contact" class="contact-section">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="contact-content">
+                    <p>Feel free to reach out to me for collaboration or just to say hello!</p>
+                    <div class="social-links">
+                        <a href="https://github.com/NeikiDev" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/neiki__" target="_blank" aria-label="Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a href="https://tip.neiki.dev/discord" aria-label="Send Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
