@@ -28,6 +28,7 @@ The following types of files should generally not be submitted:
 
 - Junk files, such as text or log files containing only blank or irrelevant content.
 - Known clean files that are confirmed to be 100% safe and free of suspicion.
+- Files that are old & outdated (e.g., files uploaded to VirusTotal over 4 years ago with more than 30 detections)
 
 ## Potentially Restricted Submissions
 

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktip_v_2_build=self.webpackChunktip_v_2_build||[]).push([[472],{5513:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"First Blog Post","permalink":"/tip-v2/blog/first-blog-post","unlisted":false,"date":"2025-04-25T18:20:23.161Z"}]}')}}]);
