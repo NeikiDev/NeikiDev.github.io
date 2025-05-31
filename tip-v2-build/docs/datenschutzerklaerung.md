@@ -27,7 +27,7 @@ _Stand: 15. Mai 2025_
 
 ## Verantwortlicher
 
-Philipp Eckert  
+Philipp  
 Stuttgart, Germany
 
 E-Mail-Adresse: [neikianalytics@gmail.com](mailto:neikianalytics@gmail.com)
