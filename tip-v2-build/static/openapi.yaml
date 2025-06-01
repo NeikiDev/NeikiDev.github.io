@@ -1,0 +1,163 @@
+openapi: 3.0.1
+info:
+  title: Threat Insights Portal - API DOCS
+  version: v1
+servers:
+- url: https://tip.neiki.dev/
+paths:
+  /api/upload/file:
+    post:
+      tags:
+      - Upload
+      operationId: uploadUIFile
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/FileUploadDTO'
+      parameters:
+      - name: Authorization
+        in: header
+        required: true
+        schema:
+          type: string
+          default: apikey
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/upload/fetch:
+    post:
+      tags:
+      - Upload
+      operationId: fetchFile
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/FetchDTO'
+      parameters:
+      - name: Authorization
+        in: header
+        required: true
+        schema:
+          type: string
+          default: apikey
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{report_id}:
+    get:
+      tags:
+      - Report
+      operationId: getReport
+      parameters:
+      - name: report_id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{report_id}/metadata:
+    get:
+      tags:
+      - Report
+      operationId: getMetadata
+      parameters:
+      - name: report_id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{report_id}/exists:
+    get:
+      tags:
+      - Report
+      operationId: reportExists
+      parameters:
+      - name: report_id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "404":
+          description: NOT FOUND
+          content:
+            '*/*':
+              schema:
+                type: object
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{reportId}/config:
+    get:
+      tags:
+      - Report
+      operationId: getConfig
+      parameters:
+      - name: reportId
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: Referer
+        in: header
+        required: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+components:
+  schemas:
+    FileUploadDTO:
+      type: object
+      required:
+        - file
+      properties:
+        file:
+          type: string
+          format: binary
+          description: The file to upload
+        password:
+          type: string
+          description: Optional password for the file
+    FetchDTO:
+      type: object
+      properties:
+        remote:
+          type: string
+          description: The remote URL or resource identifier
+        password:
+          type: string
+          description: Optional password for access
