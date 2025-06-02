@@ -51,6 +51,35 @@ Violating the submission policy may result in penalties, depending on the severi
 
 If your account is banned, you may appeal the decision by submitting a ticket through our Discord server.
 
+## Fetch Submission
+
+**The following file types are supported for submission:**
+
+- **Archives & Disk Images:** `zip`, `rar`, `7z`, `iso`, `tar`, `dmg`
+- **Windows Executables & Libraries:** `exe`, `msi`, `dll`, `sys`, `scr`
+- **Scripts:**
+  - **Windows:** `ps1`, `cmd`, `bat`, `vbs`, `vbe`, `js`, `jse`, `wsf`, `wsc`, `wsh`, `hta`
+  - **Unix/Linux:** `sh`, `bash`, `ksh`, `zsh`, `csh`
+  - **Python:** `py`, `pyc`, `pyo`, `pyw`
+  - **JavaScript:** `js`, `mjs`, `jsx`
+  - **Visual Basic:** `vb`, `vba`
+  - **Lua:** `lua`
+- **Java Archives:** `jar`, `war`, `ear`
+- **Unix/Linux Executables & Libraries:** `run`, `app`, `o`, `ko`, `so`, `bin`
+- **Linux Packages:** `deb`, `rpm`, `pkg`
+- **macOS:** `kext`
+- **Emacs Lisp Bytecode:** `elc`
+- **PowerShell Modules:** `psd1`, `psm1`
+
+**The following hosts are supported for URL submissions:**
+
+- `discord.com`
+- `cdn.discordapp.com`
+- `github.com`
+- `raw.githubusercontent.com`
+
+> If your file type or host is not listed, please contact support for clarification before submitting.
+
 ## Important Notice
 
 This policy is subject to updates at any time. By using the system, you agree to comply with the latest version of this policy.
