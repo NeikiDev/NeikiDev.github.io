@@ -36,6 +36,10 @@ _Last updated: 31.05.2025_
 
 - **Usage Data**: We collect anonymized, non-personally identifiable usage data through Cloudflare Analytics to better understand how users interact with our website. This data may include anonymized IP addresses, browser and device types, pages visited, and time spent on the site. Additionally, we use Sentry to monitor and resolve bugs or errors, which may also involve collecting similar client information as described above.
 
+### Google Analytics
+
+- **Google Analytics**: We use Google Analytics to collect anonymized usage statistics and understand how visitors interact with our website. This service may collect information such as your IP address (anonymized), browser type, operating system, referring website, pages visited, and time spent on our site. Google Analytics uses cookies and similar technologies to gather this information. You can opt out of Google Analytics tracking by installing the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout). For more information about how Google processes this data, please review [Google's Privacy Policy](https://policies.google.com/privacy).
+
 ### How We Use the Information
 
 - To enhance the performance and features of our services.
