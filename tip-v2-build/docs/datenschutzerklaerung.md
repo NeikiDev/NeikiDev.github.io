@@ -7,23 +7,7 @@ lang: de
 
 _Stand: 15. Mai 2025_
 
-## Inhaltsübersicht
-
-- [Verantwortlicher](#verantwortlicher)
-- [Übersicht der Verarbeitungen](#uebersicht-der-verarbeitungen)
-- [Maßgebliche Rechtsgrundlagen](#massgebliche-rechtsgrundlagen)
-- [Sicherheitsmaßnahmen](#sicherheitsmassnahmen)
-- [Übermittlung von personenbezogenen Daten](#uebermittlung-von-personenbezogenen-daten)
-- [Internationale Datentransfers](#internationale-datentransfers)
-- [Allgemeine Informationen zur Datenspeicherung und Löschung](#allgemeine-informationen-zur-datenspeicherung-und-loeschung)
-- [Rechte der betroffenen Personen](#rechte-der-betroffenen-personen)
-- [Bereitstellung des Onlineangebots und Webhosting](#bereitstellung-des-onlineangebots-und-webhosting)
-- [Einsatz von Cookies](#einsatz-von-cookies)
-- [Blogs und Publikationsmedien](#blogs-und-publikationsmedien)
-- [Kontakt- und Anfrageverwaltung](#kontakt-und-anfrageverwaltung)
-- [Plug-ins und eingebettete Funktionen sowie Inhalte](#plug-ins-und-eingebettete-funktionen-sowie-inhalte)
-
----
+[Privacy Policy](privacy)
 
 ## Verantwortlicher
 
