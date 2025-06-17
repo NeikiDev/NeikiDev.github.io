@@ -40,7 +40,7 @@ There is also a download feature that allows users to retrieve files and share t
 
 **2. AnyRun has problems with my file**
 
-:small*orange_diamond: Sometimes when a file is uploaded to my site and forwarded to AnyRun, its integrity might \_somehow* change (common with **NSIS** or other packers).  
+:small_orange_diamond: Sometimes when a file is uploaded to my site and forwarded to AnyRun, its integrity might somehow change (common with **NSIS** or other packers).  
 :small_orange_diamond: If AnyRun doesn't run it properly, just open a ticket or ping me in #chatt . I’ll rerun it with **max/custom settings**.
 
 ---
@@ -54,7 +54,7 @@ There is also a download feature that allows users to retrieve files and share t
 
 **4. I have a suggestion or an idea**
 
-:bulb: Ping me or use #create-ticket — I’m always open to feedback! You can also drop ideas in #suggestions .
+:bulb: Ping me or use #create-ticket — I’m always open to feedback! You can also drop ideas in #suggestions on the discord.
 
 ---
 
