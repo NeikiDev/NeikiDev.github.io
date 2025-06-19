@@ -76,7 +76,7 @@ If your account is banned, you may appeal the decision by submitting a ticket th
 - `discord.com`
 - `cdn.discordapp.com`
 - `github.com`
-- `raw.githubusercontent.com`
+- `https://gofile.io/d/`
 
 > If your file type or host is not listed, please contact support for clarification before submitting.
 
