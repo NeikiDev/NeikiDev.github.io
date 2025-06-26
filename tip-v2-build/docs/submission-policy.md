@@ -21,6 +21,7 @@ The following types of files are strictly prohibited:
 - Illegal files or materials.
 - Files containing or displaying NSFW (Not Safe For Work) content.
 - Files that actively leak personal information.
+- Submitting always the same or bulk uploads of XMRIG or other cryptocurrency mining malware is strictly prohibited.
 
 ## Discouraged Submissions
 
@@ -29,6 +30,8 @@ The following types of files should generally not be submitted:
 - Junk files, such as text or log files containing only blank or irrelevant content.
 - Known clean files that are confirmed to be 100% safe and free of suspicion.
 - Files that are old & outdated (e.g., files uploaded to VirusTotal over 4 years ago with more than 30 detections)
+- Submitting files associated with the "BERBEW" family in bulk, as these are considered junk submissions.
+- Mass uploading identical files with the same malware configuration to spam or abuse the service
 
 ## Potentially Restricted Submissions
 
