@@ -38,6 +38,8 @@ The following types of files should generally not be submitted:
 The following types of files may not be allowed, depending on context:
 
 - JAR files, such as Minecraft mods, that are widely recognized and trusted.
+- Uploading / Fetching or reanalyzing apk files in mass / to fast
+- Uploading / Fetching or reanalyzing big files in mass / to fast
 
 ## Permitted Submissions
 
