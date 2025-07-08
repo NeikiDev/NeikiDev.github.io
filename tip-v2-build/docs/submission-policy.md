@@ -18,8 +18,8 @@ The following types of files are strictly prohibited:
 
 - Files containing personal data or confidential information.
 - Junk files, such as images, videos, sound files, or other files intended to spam or abuse the system (e.g., large files uploaded to disrupt operations).
-- Illegal files or materials.
-- Files containing or displaying NSFW (Not Safe For Work) content.
+- Files designed as zip or archive bombs (e.g., files intended to consume excessive resources or disrupt system operations).
+- Files that contain or distrube illegal materials (videos, images, etc).
 - Files that actively leak personal information.
 - Submitting always the same or bulk uploads of XMRIG or other cryptocurrency mining malware is strictly prohibited.
 
@@ -40,6 +40,7 @@ The following types of files may not be allowed, depending on context:
 - JAR files, such as Minecraft mods, that are widely recognized and trusted.
 - Uploading / Fetching or reanalyzing apk files in mass / to fast
 - Uploading / Fetching or reanalyzing big files in mass / to fast
+- Mass uploading Files containing or displaying NSFW (Not Safe For Work) content.
 
 ## Permitted Submissions
 
@@ -50,6 +51,7 @@ You are allowed to upload any file that you suspect to be malicious or harmful.
 Violating the submission policy may result in penalties, depending on the severity and frequency of the violation:
 
 - Severe violations may lead to a permanent ban of your account on "tip.neiki.dev," with no option to create a new account.
+- If you submit files as a "guest" user without an account, your IP address may be temporarily (24 hours) or permanently blocked via Cloudflare.
 - Repeated minor violations may result in a reduced trust level and loss of certain permissions.
 
 ## Ban Appeal

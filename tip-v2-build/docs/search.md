@@ -41,6 +41,7 @@ Here you can find the Extended Search Documentation!
 | `CONTENT`      | Search within extracted file content                        |
 | `VTSCORE`      | VirusTotal detection score                                  |
 | `FILESIZE`     | File size in bytes                                          |
+| `THREAT`       | The threat label of the report                              |
 
 ## Operators
 

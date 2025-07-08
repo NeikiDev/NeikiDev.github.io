@@ -1,4 +1,4 @@
-openapi: 3.0.1
+openapi: "3.1.0"
 info:
   title: Threat Insights Portal - API DOCS
   version: v1
@@ -115,29 +115,31 @@ paths:
             '*/*':
               schema:
                 type: object
-  /api/reports/file/{reportId}/config:
+  /api/reports/file/{report_id}/classification:
     get:
       tags:
       - Report
-      operationId: getConfig
+      operationId: getClassification
       parameters:
-      - name: reportId
+      - name: report_id
         in: path
         required: true
         schema:
           type: string
-      - name: Referer
-        in: header
-        required: false
-        schema:
-          type: string
       responses:
+        "404":
+          description: NOT FOUND
+          content:
+            '*/*':
+              schema:
+                type: object
         "200":
           description: OK
           content:
             '*/*':
               schema:
-                type: object
+                type: object                
+  
 components:
   schemas:
     FileUploadDTO:
