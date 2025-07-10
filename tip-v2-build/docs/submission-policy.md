@@ -22,6 +22,8 @@ The following types of files are strictly prohibited:
 - Files that contain or distrube illegal materials (videos, images, etc).
 - Files that actively leak personal information.
 - Submitting always the same or bulk uploads of XMRIG or other cryptocurrency mining malware is strictly prohibited.
+- Mass uploading files that are older than 3 years.
+- Uploading clean, digitally signed, and well-known Microsoft system files.
 
 ## Discouraged Submissions
 
@@ -44,7 +46,7 @@ The following types of files may not be allowed, depending on context:
 
 ## Permitted Submissions
 
-You are allowed to upload any file that you suspect to be malicious or harmful.
+You are allowed to upload any file that you suspect to be malware.
 
 ## Consequences
 

@@ -6,9 +6,9 @@ sidebar_position: 15
 
 ## Goal of Threat Insights Portal
 
-The goal behind Threat Insights Portal was to create a free, community-driven platform that helps users determine whether a file is trustworthy or potentially harmful.
+The goal behind Threat Insights Portal was to create a free, community-driven platform that helps to analyze malware or malicious files.
 
-Many existing online analysis tools are hidden behind paywalls or restricted access. To overcome this, I reached out to several of these services to explore collaboration opportunities. The idea was simple: bring these tools together in one place and provide a unified summary to help people stay safe and avoid accidentally running malware or other threats.
+The idea was simple: bring tools together in one place and provide a unified summary to help people stay safe and avoid accidentally running malware or other threats.
 
 At its core, Threat Insights Portal uploads files to popular online analysis platforms such as VirusTotal, ANY.RUN, Triage, and others. It then consolidates the resulting reports into a single, easy-to-understand summary.
 
