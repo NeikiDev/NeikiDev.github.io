@@ -1,14 +1,24 @@
 openapi: "3.1.0"
 info:
   title: Threat Insights Portal - API DOCS
+  termsOfService: "https://neikidev.github.io/tip-v2/docs/terms"
+  description: "Threat Insights Portal is a provider of malware analysis and threat intelligence services"
   version: v1
 servers:
 - url: https://tip.neiki.dev/
+security:
+  - "Authorization": []
+tags:
+  - name: Upload
+    description: Submit files to TIP
+  - name: Report
+    description: Get Report data from TIP
 paths:
   /api/upload/file:
     post:
       tags:
       - Upload
+      summary: "Upload a file"
       operationId: uploadUIFile
       requestBody:
         required: true
@@ -34,6 +44,7 @@ paths:
     post:
       tags:
       - Upload
+      summary: Fetch a file
       operationId: fetchFile
       requestBody:
         required: true
@@ -59,6 +70,7 @@ paths:
     get:
       tags:
       - Report
+      summary: Get analysis report
       operationId: getReport
       parameters:
       - name: report_id
@@ -78,6 +90,7 @@ paths:
       tags:
       - Report
       operationId: getMetadata
+      summary: Get file metadata
       parameters:
       - name: report_id
         in: path
@@ -96,6 +109,7 @@ paths:
       tags:
       - Report
       operationId: reportExists
+      summary: Check if a file exists
       parameters:
       - name: report_id
         in: path
@@ -120,6 +134,7 @@ paths:
       tags:
       - Report
       operationId: getClassification
+      summary: Get analysis classification
       parameters:
       - name: report_id
         in: path

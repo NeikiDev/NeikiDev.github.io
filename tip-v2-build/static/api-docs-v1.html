@@ -1,41 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <title>Swagger UI</title>
-    <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist/swagger-ui.css" />
+    <title>Scalar API Reference</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1" />
   </head>
+
   <body>
-    <div class="api-alert" style="
-  background-color: #fff0e0;
-  color: #7a3e00;
-  padding: 1rem 1.5rem;
-  border: 1px solid #ffd6b3;
-  border-radius: 6px;
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-">
-  🔶 <strong>Note:</strong> The <code>"Try it out"</code> button is disabled due to CORS restrictions.
-  Please use a tool like 
-  <a href="https://www.postman.com/" target="_blank" rel="noopener" style="color: #d36f00; text-decoration: underline;">Postman</a> 
-  or 
-  <a href="https://insomnia.rest/" target="_blank" rel="noopener" style="color: #d36f00; text-decoration: underline;">Insomnia</a> 
-  to test the API.
-</div>
+    <div id="app"></div>
 
+    <!-- Load the Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
 
-
-    <div id="swagger-ui"></div>
-    <script src="https://unpkg.com/swagger-ui-dist/swagger-ui-bundle.js"></script>
+    <!-- Initialize the Scalar API Reference -->
     <script>
-      window.onload = () => {
-        SwaggerUIBundle({
-          url: '/tip-v2/openapi.yaml',
-          dom_id: '#swagger-ui',
-        });
-      };
+      Scalar.createApiReference('#app', {
+        url: '/tip-v2/openapi.yaml',
+        documentDownloadType: "yaml",
+        hideTestRequestButton: true,
+        favicon: "https://pub-75524dcd8f85468e911d1339927dd6ab.r2.dev/tip-logo-staticv2.webp",
+        metaData: {
+          title: 'Threat Insights Portal - API',
+          image: "https://pub-75524dcd8f85468e911d1339927dd6ab.r2.dev/tip-logo-staticv2.webp",
+          icon: "https://pub-75524dcd8f85468e911d1339927dd6ab.r2.dev/tip-logo-staticv2.webp",
+          favicon: "https://pub-75524dcd8f85468e911d1339927dd6ab.r2.dev/tip-logo-staticv2.webp",
+          ogDescription: 'Threat Insights Portal - API',
+          ogTitle: 'Threat Insights Portal - API',
+          ogImage: 'https://pub-75524dcd8f85468e911d1339927dd6ab.r2.dev/tip-logo-staticv2.webp',
+        }
+      })
     </script>
   </body>
 </html>
