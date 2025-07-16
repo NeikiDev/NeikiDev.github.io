@@ -66,14 +66,14 @@ paths:
             '*/*':
               schema:
                 type: object
-  /api/reports/file/{report_id}:
+  /api/reports/file/{sha256}:
     get:
       tags:
       - Report
       summary: Get analysis report
       operationId: getReport
       parameters:
-      - name: report_id
+      - name: sha256
         in: path
         required: true
         schema:
@@ -85,14 +85,14 @@ paths:
             '*/*':
               schema:
                 type: object
-  /api/reports/file/{report_id}/metadata:
+  /api/reports/file/{sha256}/metadata:
     get:
       tags:
       - Report
       operationId: getMetadata
       summary: Get file metadata
       parameters:
-      - name: report_id
+      - name: sha256
         in: path
         required: true
         schema:
@@ -104,14 +104,14 @@ paths:
             '*/*':
               schema:
                 type: object
-  /api/reports/file/{report_id}/exists:
+  /api/reports/file/{sha256}/exists:
     get:
       tags:
       - Report
       operationId: reportExists
       summary: Check if a file exists
       parameters:
-      - name: report_id
+      - name: sha256
         in: path
         required: true
         schema:
@@ -129,14 +129,14 @@ paths:
             '*/*':
               schema:
                 type: object
-  /api/reports/file/{report_id}/classification:
+  /api/reports/file/{sha256}/classification:
     get:
       tags:
       - Report
       operationId: getClassification
       summary: Get analysis classification
       parameters:
-      - name: report_id
+      - name: sha256
         in: path
         required: true
         schema:
