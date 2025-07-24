@@ -2,28 +2,28 @@
 sidebar_position: 3
 ---
 
+# **Threat** Insights Portal is intended for malware analysis, not for repeatedly submitting the same files multiple times per day.
+
 # Submission Policy
 
 By uploading a file, you automatically agree to our **Submission Policy**. Below are the rules and guidelines for submitting files, hashes, or URLs to the Threat Insights Portal.
 
 ## Rules
 
-1. Do not submit illegal material, files, or information.
-2. Do not upload files that you are not authorized to share.
-3. Do not misuse the submission system, as this may result in [consequences](#consequences).
+- Do not misuse / abuse the submission system, as this may result in [consequences](#consequences).
 
 ## Prohibited Submissions
 
 The following types of files are strictly prohibited:
 
-- Files containing personal data or confidential information.
-- Junk files, such as images, videos, sound files, or other files intended to spam or abuse the system (e.g., large files uploaded to disrupt operations).
+- Files containing personal data or confidential information (leaked databases, doxing information, ...).
+- Junk files, such as images, videos, sound files, apk, text, or other files intended to spam or abuse the system (e.g., large files uploaded to disrupt operations).
 - Files designed as zip or archive bombs (e.g., files intended to consume excessive resources or disrupt system operations).
 - Files that contain or distrube illegal materials (videos, images, etc).
-- Files that actively leak personal information.
 - Submitting always the same or bulk uploads of XMRIG or other cryptocurrency mining malware is strictly prohibited.
-- Mass uploading files that are older than 3 years.
+- Mass uploading files that are older than 1 years in mass.
 - Uploading clean, digitally signed, and well-known Microsoft system files.
+- Uploading 100% clean and well-known files in mass.
 
 ## Discouraged Submissions
 
@@ -40,13 +40,13 @@ The following types of files should generally not be submitted:
 The following types of files may not be allowed, depending on context:
 
 - JAR files, such as Minecraft mods, that are widely recognized and trusted.
-- Uploading / Fetching or reanalyzing apk files in mass / to fast
 - Uploading / Fetching or reanalyzing big files in mass / to fast
-- Mass uploading Files containing or displaying NSFW (Not Safe For Work) content.
+- Mass uploading Files containing or displaying NSFW (Not Safe For Work) content that are not malware.
 
 ## Permitted Submissions
 
-You are allowed to upload any file that you suspect to be malware.
+- You are allowed to upload / fetch any file that you highly suspect to be malware.
+- You are allowed to upload / fetch any malware that you want to analyze further.
 
 ## Consequences
 
@@ -61,24 +61,6 @@ Violating the submission policy may result in penalties, depending on the severi
 If your account is banned, you may appeal the decision by submitting a ticket through our Discord server.
 
 ## Fetch Submission
-
-**The following file types are supported for submission:**
-
-- **Archives & Disk Images:** `zip`, `rar`, `7z`, `iso`, `tar`, `dmg`
-- **Windows Executables & Libraries:** `exe`, `msi`, `dll`, `sys`, `scr`
-- **Scripts:**
-  - **Windows:** `ps1`, `cmd`, `bat`, `vbs`, `vbe`, `js`, `jse`, `wsf`, `wsc`, `wsh`, `hta`
-  - **Unix/Linux:** `sh`, `bash`, `ksh`, `zsh`, `csh`
-  - **Python:** `py`, `pyc`, `pyo`, `pyw`
-  - **JavaScript:** `js`, `mjs`, `jsx`
-  - **Visual Basic:** `vb`, `vba`
-  - **Lua:** `lua`
-- **Java Archives:** `jar`, `war`, `ear`
-- **Unix/Linux Executables & Libraries:** `run`, `app`, `o`, `ko`, `so`, `bin`
-- **Linux Packages:** `deb`, `rpm`, `pkg`
-- **macOS:** `kext`
-- **Emacs Lisp Bytecode:** `elc`
-- **PowerShell Modules:** `psd1`, `psm1`
 
 **The following hosts are supported for URL submissions:**
 
