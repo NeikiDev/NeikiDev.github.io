@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# **Threat** Insights Portal is intended for malware analysis, not for repeatedly submitting the same files multiple times per day.
+**Threat** Insights Portal is intended for malware analysis, not for repeatedly submitting the same files multiple times per day.
 
 # Submission Policy
 
