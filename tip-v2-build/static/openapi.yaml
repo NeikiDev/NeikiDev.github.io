@@ -154,7 +154,37 @@ paths:
             '*/*':
               schema:
                 type: object                
-  
+  /api/reports/file/{sha256}/config:
+    get:
+      tags:
+      - Report
+      operationId: getMalConfig
+      summary: Get Malware Config
+      parameters:
+      - name: sha256
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: Authorization
+        in: header
+        required: true
+        schema:
+          type: string
+          default: "apikey"
+      responses:
+        "404":
+            description: NOT FOUND
+            content:
+              '*/*':
+                schema:
+                  type: object
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
 components:
   schemas:
     FileUploadDTO:
