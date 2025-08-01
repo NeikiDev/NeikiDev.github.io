@@ -21,7 +21,7 @@ The following types of files are strictly prohibited:
 - Files designed as zip or archive bombs (e.g., files intended to consume excessive resources or disrupt system operations).
 - Files that contain or distrube illegal materials (videos, images, etc).
 - Submitting always the same or bulk uploads of XMRIG or other cryptocurrency mining malware is strictly prohibited.
-- Mass uploading files that are older than 1 years in mass.
+- Mass uploading files that are older than 1 year (virustotal first submission).
 - Uploading clean, digitally signed, and well-known Microsoft system files.
 - Uploading 100% clean and well-known files in mass.
 
@@ -31,7 +31,7 @@ The following types of files should generally not be submitted:
 
 - Junk files, such as text or log files containing only blank or irrelevant content.
 - Known clean files that are confirmed to be 100% safe and free of suspicion.
-- Files that are old & outdated (e.g., files uploaded to VirusTotal over 4 years ago with more than 30 detections)
+- Files that are old & outdated (files uploaded to VirusTotal over 2 years ago)
 - Submitting files associated with the "BERBEW" family in bulk, as these are considered junk submissions.
 - Mass uploading identical files with the same malware configuration to spam or abuse the service
 
