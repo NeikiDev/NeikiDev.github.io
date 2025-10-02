@@ -8,40 +8,22 @@ Here you can find the Extended Search Documentation!
 
 ## Keywords
 
-| **Keyword**    | **Description**                                             |
-| -------------- | ----------------------------------------------------------- |
-| `FILENAME`     | Name of the file, including extensions (e.g., `.exe`)       |
-| `UID`          | Unique identifier for a file or user                        |
-| `SHA256`       | SHA-256 cryptographic hash of the file                      |
-| `MD5`          | MD5 hash value of the file                                  |
-| `SHA1`         | SHA-1 hash value of the file                                |
-| `FILETYPE`     | File type or format                                         |
-| `SIGNER`       | Entity that signed the file, if applicable                  |
-| `VERDICT`      | Security verdict or analysis result                         |
-| `USER`         | User linked to the file                                     |
-| `PACKER`       | Packer or compression method used                           |
-| `SSDEEP`       | Fuzzy hash (ssdeep) for similarity detection                |
-| `MAGIC`        | File signature or magic number                              |
-| `TLSH`         | Trend Micro Locality Sensitive Hash (TLSH) value            |
-| `AUTHENTIHASH` | Authenticode hash for verifying file authenticity           |
-| `TYPETAG`      | Tag indicating file type or category                        |
-| `PASSWORD`     | Password related to the file, if present                    |
-| `HASH`         | General hash value of the file                              |
-| `PENDING`      | Indicates files awaiting processing or analysis             |
-| `QUEUED`       | Files that are in the processing queue                      |
-| `ENCRYPTED`    | Shows if the file is encrypted                              |
-| `SCORE`        | Security score or risk rating                               |
-| `REPUTATION`   | Reputation status or score of the file                      |
-| `VOTE`         | User’s vote (`DOWNVOTE`, `NEUTRAL`, `UPVOTE`)               |
-| `VOTELABEL`    | Label assigned by user (`MALWARE`, `CLEAN`, etc.)           |
-| `VOTEFAMILY`   | Malware family specified by user (`Redline`, `DCRAT`, etc.) |
-| `COMMENT`      | Search within user vote comments                            |
-| `TAG`          | Tag from analysis or metadata                               |
-| `FAMILY`       | Specific malware family name                                |
-| `CONTENT`      | Search within extracted file content                        |
-| `VTSCORE`      | VirusTotal detection score                                  |
-| `FILESIZE`     | File size in bytes                                          |
-| `THREAT`       | The threat label of the report                              |
+| **Keyword**  | **Description**                                       |
+| ------------ | ----------------------------------------------------- |
+| `FILENAME`   | Name of the file, including extensions (e.g., `.exe`) |
+| `SHA256`     | SHA-256 cryptographic hash of the file                |
+| `MD5`        | MD5 hash value of the file                            |
+| `SHA1`       | SHA-1 hash value of the file                          |
+| `FILETYPE`   | File type or format                                   |
+| `VERDICT`    | Security verdict or analysis result                   |
+| `USER`       | User linked to the file                               |
+| `PACKER`     | Packer or compression method used                     |
+| `TYPETAG`    | Tag indicating file type or category                  |
+| `HASH`       | General hash value of the file                        |
+| `SCORE`      | Security score or risk rating                         |
+| `REPUTATION` | Reputation status or score of the file                |
+| `THREAT`     | Specific malware Threat detection name                |
+| `FILESIZE`   | File size in bytes                                    |
 
 ## Operators
 
@@ -56,11 +38,7 @@ Here you can find the Extended Search Documentation!
 Here are some example queries to help you get started:
 
 ```sql
-filename:solara.exe AND score:100
-
-family:lumma OR tag:stealer AND score:100
-
-encrypted:true OR password:infected OR filetype:.zip
+threat:Family.XWORM
 
 filesize:10mb OR filesize:>10mb OR filesize:10mb-20mb
 ```

@@ -23,7 +23,7 @@ The following types of files are strictly prohibited:
 - Submitting always the same or bulk uploads of XMRIG or other cryptocurrency mining malware is strictly prohibited.
 - Mass uploading files that are older than 1 year (virustotal first submission).
 - Uploading clean, digitally signed, and well-known Microsoft system files.
-- Uploading 100% clean and well-known files in mass.
+- Uploading 100% clean and well-known files.
 
 ## Discouraged Submissions
 
