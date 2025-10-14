@@ -48,6 +48,31 @@ The following types of files may not be allowed, depending on context:
 - You are allowed to upload / fetch any file that you highly suspect to be malware.
 - You are allowed to upload / fetch any malware that you want to analyze further.
 
+## Sandbox Submissions Policy
+
+### General Notice
+
+All Sandbox Submissions are subject to the general rules outlined above **in addition** to the specific terms listed below. Please read and follow them carefully.
+
+### Submission Rules
+
+By submitting a file for analysis, you agree to the following:
+
+- **Malware only:** Uploads must be _suspected or confirmed malicious files_ only. Do **not** upload clean or known-safe software.
+- **Purpose:** Submissions must be for the purpose of verifying a file’s behavior or status — not for testing, enumeration, or manipulation of the sandbox environment.
+- **No enumeration or probing:** Any attempt to identify, fingerprint, or extract information about the sandbox infrastructure is strictly prohibited.
+- **No custom attack files:** Purpose-built files designed specifically to interfere with or exploit sandbox systems are forbidden.
+- **No destructive intent:** Files intended solely to damage, disable, or destroy sandbox instances or infrastructure are not permitted.
+- **No cryptocurrency miners:** Uploading miners such as _XMRig_ or similar tools is not allowed under any circumstance.
+
+### Additional Information
+
+- **Privacy:** Submissions are _not publicly visible_ by default. You may choose to share your analysis results with others.
+- **Ownership and visibility:** The owner of _Threat Insights Portal_ (**Neiki**) retains the right to view any submission and may share it at their discretion.
+- **Storage:** Uploaded files are only stored _temporarily_ for analysis purposes and are not retained or redistributed after the session completes.
+- **Third-party sharing:** No files are shared with external services or third parties (this may change in the future with prior notice).
+- **Rate limiting:** A global rate limit is enforced. Please avoid excessive or repeated submissions to ensure fair usage for all users.
+
 ## Consequences
 
 Violating the submission policy may result in penalties, depending on the severity and frequency of the violation:
