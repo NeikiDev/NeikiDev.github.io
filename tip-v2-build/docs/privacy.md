@@ -7,7 +7,7 @@ lang: en
 
 _Last updated: 31.05.2025_
 
-**Your privacy is important to us. This Privacy Policy outlines how Uncover it ("we", "our", or "us") collects, uses, and protects the information you provide when using our website.**
+**Your privacy is important to us. This Privacy Policy outlines how Threat Insights Portal ("we", "our", or "us") collects, uses, and protects the information you provide when using our website.**
 
 ### Information We Collect
 
@@ -78,13 +78,13 @@ _Last updated: 31.05.2025_
 ### TIP-Processor
 
 > TIP-Processor is a third-party application owned by NeikiAnalytics that processes threat intelligence data provided by Threat Insights Portal.
-> It shares certain C&C and other abuse-related data with third-party services such as "github.com", "uncoverit.org", "playit.gg" or directly with the abuse contact provided by the relevant service.
+> It shares certain C&C and other abuse-related data with third-party services such as "discord.com", "github.com", "uncoverit.org", "playit.gg", "portmap.io" or directly with the abuse contact provided by the relevant service.
 
 - No personally identifiable information (PII) is sent to TIP-Processor.
 - All data is stored locally within the Threat Insights Portal network; only extracted data is shared with third parties.
 - **No** Threat Insights Portal user data is shared with third parties.
 - Shared data includes file information such as `HASH`, `THREAT SCORE`, `MALWARE CONFIG`, `Network connections`, `Strings`, `File Content`, and other file metadata.
-- Data is also shared with the `uncoverit.org` abuse reporting portal as part of our collaborative threat intelligence efforts.
+- Data is also shared with the `*.uncoverit.org` abuse reporting portal as part of our collaborative threat intelligence efforts.
 
 ### Your Choices
 
