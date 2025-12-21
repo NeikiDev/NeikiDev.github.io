@@ -33,6 +33,7 @@ _Last updated: 31.05.2025_
   - [UnpacMe](https://unpac.me/)
   - [CyberFortress](https://cyber-fortress.com)
   - [Virus.Exchange](https://virus.exchange/)
+  - [TIP-Processor](#tip-processor)
 
 - **Usage Data**: We collect anonymized, non-personally identifiable usage data through Cloudflare Analytics to better understand how users interact with our website. This data may include anonymized IP addresses, browser and device types, pages visited, and time spent on the site. Additionally, we use Sentry to monitor and resolve bugs or errors, which may also involve collecting similar client information as described above.
 
@@ -73,6 +74,17 @@ _Last updated: 31.05.2025_
 ### Captcha
 
 > We use HCaptcha and Cloudflare Turnstile Captcha to protect our services from abuse and attacks. When you interact with these captchas, basic browser data such as your IP address and User-Agent may be shared with the respective providers.
+
+### TIP-Processor
+
+> TIP-Processor is a third-party application owned by NeikiAnalytics that processes threat intelligence data provided by Threat Insights Portal.
+> It shares certain C&C and other abuse-related data with third-party services such as "github.com", "uncoverit.org", "playit.gg" or directly with the abuse contact provided by the relevant service.
+
+- No personally identifiable information (PII) is sent to TIP-Processor.
+- All data is stored locally within the Threat Insights Portal network; only extracted data is shared with third parties.
+- **No** Threat Insights Portal user data is shared with third parties.
+- Shared data includes file information such as `HASH`, `THREAT SCORE`, `MALWARE CONFIG`, `Network connections`, `Strings`, `File Content`, and other file metadata.
+- Data is also shared with the `uncoverit.org` abuse reporting portal as part of our collaborative threat intelligence efforts.
 
 ### Your Choices
 
