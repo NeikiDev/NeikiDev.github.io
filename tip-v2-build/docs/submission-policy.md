@@ -20,6 +20,7 @@ The following types of files are strictly prohibited:
 - Junk files, such as images, videos, sound files, apk, text, or other files intended to spam or abuse the system (e.g., large files uploaded to disrupt operations).
 - Files designed as zip or archive bombs (e.g., files intended to consume excessive resources or disrupt system operations).
 - Files that contain or distrube illegal materials (videos, images, etc).
+- Password-protected files or archives (e.g., encrypted zip/rar/7z files or documents requiring a password to open).
 - Submitting always the same or bulk uploads of XMRIG or other cryptocurrency mining malware is strictly prohibited.
 - Mass uploading files that are older than 1 year (virustotal first submission).
 - Uploading clean, digitally signed, and well-known Microsoft system files.
