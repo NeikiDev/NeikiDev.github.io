@@ -1,0 +1,210 @@
+openapi: "3.1.0"
+info:
+  title: Threat Insights Portal - API DOCS
+  termsOfService: "https://neikidev.github.io/tip-v2/docs/terms"
+  description: "Threat Insights Portal is a provider of malware analysis and threat intelligence services"
+  version: v1
+servers:
+- url: https://tip.neiki.dev/
+security:
+  - "Authorization": []
+tags:
+  - name: Upload
+    description: Submit files to TIP
+  - name: Report
+    description: Get Report data from TIP
+paths:
+  /api/upload/file:
+    post:
+      tags:
+      - Upload
+      summary: "Upload a file"
+      operationId: uploadUIFile
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/FileUploadDTO'
+      parameters:
+      - name: Authorization
+        in: header
+        required: true
+        schema:
+          type: string
+          default: apikey
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/upload/fetch:
+    post:
+      tags:
+      - Upload
+      summary: Fetch a file
+      operationId: fetchFile
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/FetchDTO'
+      parameters:
+      - name: Authorization
+        in: header
+        required: true
+        schema:
+          type: string
+          default: apikey
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{sha256}:
+    get:
+      tags:
+      - Report
+      summary: Get analysis report
+      operationId: getReport
+      parameters:
+      - name: sha256
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{sha256}/metadata:
+    get:
+      tags:
+      - Report
+      operationId: getMetadata
+      summary: Get file metadata
+      parameters:
+      - name: sha256
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{sha256}/exists:
+    get:
+      tags:
+      - Report
+      operationId: reportExists
+      summary: Check if a file exists
+      parameters:
+      - name: sha256
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "404":
+          description: NOT FOUND
+          content:
+            '*/*':
+              schema:
+                type: object
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+  /api/reports/file/{sha256}/classification:
+    get:
+      tags:
+      - Report
+      operationId: getClassification
+      summary: Get analysis classification
+      parameters:
+      - name: sha256
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "404":
+          description: NOT FOUND
+          content:
+            '*/*':
+              schema:
+                type: object
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object                
+  /api/reports/file/{sha256}/config:
+    get:
+      tags:
+      - Report
+      operationId: getMalConfig
+      summary: Get Malware Config
+      parameters:
+      - name: sha256
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: Authorization
+        in: header
+        required: true
+        schema:
+          type: string
+          default: "apikey"
+      responses:
+        "404":
+            description: NOT FOUND
+            content:
+              '*/*':
+                schema:
+                  type: object
+        "200":
+          description: OK
+          content:
+            '*/*':
+              schema:
+                type: object
+components:
+  schemas:
+    FileUploadDTO:
+      type: object
+      required:
+        - file
+      properties:
+        file:
+          type: string
+          format: binary
+          description: The file to upload
+        password:
+          type: string
+          description: Optional password for the file
+    FetchDTO:
+      type: object
+      properties:
+        remote:
+          type: string
+          description: The remote URL or resource identifier
+        password:
+          type: string
+          description: Optional password for access

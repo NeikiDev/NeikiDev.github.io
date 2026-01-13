@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktip_v_2_build=self.webpackChunktip_v_2_build||[]).push([[235],{8552:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}')}}]);
