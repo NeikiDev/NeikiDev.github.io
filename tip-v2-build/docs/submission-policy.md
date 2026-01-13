@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Submission Policy
 
-**Threat** Insights Portal is intended for malware analysis, not for repeatedly submitting the same files multiple times per day.
+**Threat Insights Portal** is intended for malware analysis, not for repeatedly submitting the same files multiple times per day.
 
 By uploading a file, you automatically agree to our **Submission Policy**. Below are the rules and guidelines for submitting files, hashes, or URLs to the Threat Insights Portal.
 
@@ -100,3 +100,5 @@ If your account is banned, you may appeal the decision by submitting a ticket th
 ## Important Notice
 
 This policy is subject to updates at any time. By using the system, you agree to comply with the latest version of this policy.
+
+**Last edit:** 2026-01-13
