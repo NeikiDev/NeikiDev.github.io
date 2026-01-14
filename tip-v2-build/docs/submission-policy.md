@@ -78,7 +78,7 @@ By submitting a file for analysis, you agree to the following:
 
 Violating the submission policy may result in penalties, depending on the severity and frequency of the violation:
 
-- Severe violations may lead to a permanent ban of your account on "tip.neiki.dev," with no option to create a new account.
+- Severe violations may lead to a permanent ban of your account on "tip.neiki.dev, www.threat.rip" with no option to create a new account.
 - If you submit files as a "guest" user without an account, your IP address may be temporarily (24 hours) or permanently blocked via Cloudflare.
 - Repeated minor violations may result in a reduced trust level and loss of certain permissions.
 

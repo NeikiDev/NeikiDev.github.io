@@ -5,7 +5,7 @@ info:
   description: "Threat Insights Portal is a provider of malware analysis and threat intelligence services"
   version: v1
 servers:
-- url: https://tip.neiki.dev/
+- url: https://www.threat.rip/
 security:
   - "Authorization": []
 tags:

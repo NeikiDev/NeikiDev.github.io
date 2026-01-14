@@ -41,6 +41,6 @@ We reserve the right to update or modify these terms of service at any time. Con
 
 ## 8. Contact Information
 
-If you have any questions about these terms, please contact us at [discord](https://tip.neiki.dev/discord).
+If you have any questions about these terms, please contact us at [discord](https://www.threat.rip/discord).
 
 By using the Threat Insights Portal, you acknowledge that you have read, understood, and agreed to these terms of service.

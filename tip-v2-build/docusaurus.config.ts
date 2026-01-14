@@ -7,7 +7,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Threat Insights Portal V2",
   tagline: "Something",
-  favicon: "https://tip.neiki.dev/Neiki.png",
+  favicon: "https://www.threat.rip/logo.webp",
 
   // Set the production url of your site here
   url: "https://neikidev.github.io/",
@@ -97,7 +97,7 @@ const config: Config = {
           items: [
             {
               label: "Discord",
-              href: "https://tip.neiki.dev/discord",
+              href: "https://www.threat.rip/discord",
             },
             {
               label: "Twitter",
