@@ -12,7 +12,6 @@ _Last updated: 31.05.2025_
 ### Information We Collect
 
 - **Uploaded Files**: When you upload a file to the Threat Insights Portal, we may collect and store the following information:
-
   - File hashes or unique identifiers
   - Metadata associated with the file
   - Extracted file content or strings
@@ -23,7 +22,6 @@ _Last updated: 31.05.2025_
   - Execution replay data
 
 - **File Sharing with Third Parties**: When you upload a file to Threat Insights Portal, we may share and submit the files to third-party vendors and online analysis tools for further examination. Please review and comply with the privacy policies of these external services.
-
   - [VirusTotal](https://virustotal.com)
   - [Hatching Triage](https://tria.ge/)
   - [AnyRun](https://app.any.run)
@@ -60,7 +58,7 @@ _Last updated: 31.05.2025_
 
 ### User Accounts and Authentication Data
 
-> When you create an account on Threat Insights Portal, we collect basic browser identifiers (such as IP addresses and User-Agent strings) to prevent spam and fraudulent activities. This authentication data is retained for a maximum of 30 days and is also processed by Cloudflare as part of their bot protection and abuse prevention systems.
+> When you create an account on Threat Insights Portal, we collect basic browser identifiers (such as IP addresses and User-Agent strings) to prevent spam and fraudulent activities. This authentication data is retained for a maximum of 1 year and is also processed by Cloudflare & Sentry (Self-Hosted) as part of their bot protection and abuse prevention systems.
 
 > The only personal data we collect includes your email address (optional), username, login sessions (including User-Agent), and reports associated with your profile.
 > Information you choose to display on your public profile is your responsibility.
