@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktip_v_2_build=globalThis.webpackChunktip_v_2_build||[]).push([[143],{9418(t){t.exports=JSON.parse('{"metadata":{"permalink":"/tip-v2/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

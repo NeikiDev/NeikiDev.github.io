@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktip_v_2_build=self.webpackChunktip_v_2_build||[]).push([[903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/tip-v2/blog","blogTitle":"Blog","authorsListPath":"/tip-v2/blog/authors"}')}}]);
