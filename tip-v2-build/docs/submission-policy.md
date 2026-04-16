@@ -79,7 +79,7 @@ The following types of submissions are **not prohibited** but are strongly disco
 
 - **Junk files** - text files, log files, or other files containing blank, irrelevant, or non-executable content.
 - **Known clean files** - files confirmed by multiple reputable sources to be 100% safe.
-- **Outdated files** - files first submitted to VirusTotal more than **1 years ago**.
+- **Outdated files** - files first submitted to VirusTotal more than **1 years ago** without explicit permission.
 - **Trusted JAR files** - well-known Java applications such as popular Minecraft mods from verified sources.
 - **Large files submitted in rapid succession** - uploading or fetching many large files (>50 MB) in a short time window strains platform resources.
 
