@@ -1,7 +1,7 @@
 ---
 slug: weedhack-loader-ai-analysis
 title: Weedhack Loader (AI Analysis)
-authors: [neikidev, claude]
+authors: [neikidev]
 tags: []
 ---
 
